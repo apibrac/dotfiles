@@ -26,7 +26,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #----   Local Config
 
-source ~/.zsh_profile
+test -f ~/.zsh_profile && source ~/.zsh_profile
 
 
 #-----   Node env
