@@ -13,6 +13,7 @@
 ```bash
 git clone --bare git@github.com:apibrac/dotfiles.git $HOME/.cfg # correct clone for config repo
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # temporary alias just for the next command
+config config --local status.showUntrackedFiles no
 config checkout
 ```
 
